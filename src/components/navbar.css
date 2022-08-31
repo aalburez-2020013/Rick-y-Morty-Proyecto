@@ -1,0 +1,52 @@
+.topnav {
+  text-align: center;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  overflow: hidden;
+  margin: 0 0;
+
+  color: #60620d;
+  -webkit-box-shadow: 2px -2px 19px -3px rgba(250, 250, 250, 0.64);
+  -moz-box-shadow: 2px -2px 19px -3px rgba(250, 250, 250, 0.64);
+  box-shadow: 2px -2px 19px -3px rgba(250, 250, 250, 0.64);
+
+  font-size: 21px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 15px 25px 25px 15px;
+
+  text-decoration: overline;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-image: url(./img/S3e1_StGloopyNoopsHospital.webp);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.active {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.h3 {
+}

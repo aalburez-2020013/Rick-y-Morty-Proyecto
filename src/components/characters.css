@@ -1,0 +1,52 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  width: 400px;
+  margin-top: 50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 300px;
+  height: 490px;
+  margin: 20px auto;
+  border-radius: 75px 75px 10px 10px;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+img {
+  border-radius: 75px 75px 75px 75px;
+  margin: 0px auto;
+  display: block;
+}
+
+.species {
+  color: rgb(249, 249, 249);
+  padding: 10px 30px;
+  background-color: #7e91a1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card-title {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px 50px;
+  background-color: bisque;
+}
+
+.location {
+  padding: 10px 30px;
+  background-color: aqua;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+  border-radius: 0px 0px 20px 20px;
+}

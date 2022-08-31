@@ -1,0 +1,38 @@
+.page-link {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-image: url(./img/portal.png);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+  margin: 20px auto;
+}
+
+.page-link:hover {
+  background-color: #12197e98;
+}
+
+.page-link:active {
+  background-color: #cd14c9fe;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.page-item {
+  display: inline-block;
+
+  margin: auto auto;
+  padding: 20px;
+  width: 700px;
+  height: 40px;
+  text-align: center;
+}
